@@ -5,15 +5,19 @@ We need to create a simple Alexa Skill and AWS Lambda function, which will be us
 This following things briefly describes how to create Alexa Skill and its backend on AWS Lambda function. Prerequisite - accounts, created in Amazon Developer Console and AWS Management Console.
 
 Login and open the Developer Console, navigate to Alexa section
+
 ![](images/alexa.png)
 
 In your Alexa Consoles — select Skills
+
 ![](images/skill.png)
 
 Hit the Create Skill button,Type a Skill name. For development environment the name can be any.
+
 ![](images/create.png)
 
 Keep a Custom model as selected and hit the Create skill button. On the next page — keep the Start from scratch template selected and hit the Choose button.
+
 ![](images/choosetemplate.png)
 
 On the Alexa Skill dashboard — navigate to the Invocation section, using menu on the left side. Type Skill Invocation Name — with this name users will refer to this skill when interacting with Alexa device.
@@ -53,13 +57,13 @@ Hit the Create function button to create a new function.
 
 ![](images/functions.png)
 
-Select Author from scratch option, type a function name (use only letters, numbers, hyphens, or underscores with no spaces). For this example — selected Node.js 10.x in the Runtime list. Leave the role-related as-is and hit the Create function button.
+Select Author from scratch option, type a function name (use only letters, numbers, hyphens, or underscores with no spaces). For this example — selected Node.js 10.x in the Runtime list. Select the role as "create a new role with the basic lambda permissions" and hit the Create function button.
 
-![](images/role.png)
+![](images/node.png)
 
 On the function dashboard — in the Designer section click add trigger option and select Alexa skills kit.This trigger needs configuration: when the Alexa Skills Kit box is selected — scroll down to the Configure triggers section and paste Your Skill ID, recently copied in the Alexa Skill dashboard (in the Endpoint section). Hit the Add button — to add the new trigger. Scroll to the top and hit the Save button — to save changes in the function.
 
-![](images/skillskit.png)
+![](images/skillskits.png)
 
 Copy the ARN, located over the Save button — this is a unique identifier for the function.
 
@@ -67,7 +71,7 @@ Copy the ARN, located over the Save button — this is a unique identifier for t
 
 Switch to the Alexa Skill dashboard, in the Endpoint section, and paste copied function ARN to the field Default Region. Hit the Save Endpoints button.
 
-![](images/endpoint.png)
+![](images/endpointt.png)
 
 **Setup ASK-CLI :**
 
