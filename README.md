@@ -1,8 +1,8 @@
 # alexa-skill-notifications
 
-Need to create a simple Alexa Skill and AWS Lambda function, which will be used in this.
+Create a simple Alexa Skill and AWS Lambda function, which will be used in this.
 
-This following things briefly describes how to create Alexa Skill and its backend on AWS Lambda function. Prerequisite - accounts, created in Amazon Developer Console and AWS Management Console.
+The following things briefly describes how to create Alexa Skill and its backend on AWS Lambda function. Prerequisite - accounts, created in Amazon Developer Console and AWS Management Console.
 
 **Create Alexa Skill**
 
